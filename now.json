@@ -1,6 +1,8 @@
 {
-  "builds": [
-    { "src": "*.html", "use": "@now/static" },
-    { "src": "date.js", "use": "@now/node" }
-  ]
+    "version": 2,
+    "name": "MASA-explorer",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" }
+    ],
+    "alias": "masa-explorer"
 }
